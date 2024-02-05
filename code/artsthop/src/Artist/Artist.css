@@ -1,0 +1,34 @@
+.artist-container {
+    display: flex;
+    flex-direction: row;
+    height: 42rem;
+    color: white;
+    /* background-image: url('src/assets/LandingPage/final.jpg'); */
+    text-align: justify;
+}
+
+.artist-image {
+    margin: auto;
+}
+
+.artist-info {
+    margin: auto;
+    width: 50%;
+    text-justify: auto;
+    padding-top: 10rem;
+}
+
+.artist-socials {
+    display: flex;
+    flex-direction: row;
+    margin-top: 4rem !important;
+}
+
+.magic {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+    margin-left: auto;
+    margin-right: auto;
+  }

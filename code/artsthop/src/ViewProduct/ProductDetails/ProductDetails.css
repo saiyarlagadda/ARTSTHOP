@@ -1,0 +1,34 @@
+html, body {
+    margin: 0;
+}
+
+.prod-cont {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.prod-title {
+    padding-left: 1.5rem;
+    padding-bottom: 1rem;
+    font-size: medium;
+    font-weight: bold;
+}
+
+.prod-price {
+    padding-bottom: 2rem;
+    padding-left: 1.5rem;
+    font-size: larger;
+}
+
+.prod-image {
+    padding-left: 1.5rem;
+    padding-bottom: 5rem;
+}
+
+.prod-date {
+    font-size: small;
+    padding-bottom: 1rem;
+    padding-left: 1.5rem;
+}

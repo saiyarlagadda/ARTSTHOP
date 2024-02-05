@@ -1,0 +1,6 @@
+.slide-container {
+    width: 80vw;
+    height: 60vh;
+    padding-top: 2rem;
+    overflow: hidden;
+}

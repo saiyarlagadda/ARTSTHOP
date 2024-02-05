@@ -1,0 +1,44 @@
+.art-container {
+    /* background-image: url('../assets/LandingPage/final.jpg'); */
+    margin-top: 11rem;
+    height: 90vh;
+}
+
+.subtext {
+    color: rgb(179, 177, 177);
+    font-weight: 600;
+    font-size: 14px;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3rem;
+}
+
+.desctext {
+    font-size: 3rem;
+    font-weight: bold;
+    line-height: 1;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    padding-top: 4.5rem;
+}
+
+.art-button {
+    justify-content: center;
+    align-items: center;
+    padding-top: 2.5rem;
+}
+
+.card-container {
+    display: flex;
+}
+
+.caros {
+    justify-content: center;
+    align-items: center;
+}
+
+.container-two {
+    height: 55rem;
+    margin-top: 10rem;
+}

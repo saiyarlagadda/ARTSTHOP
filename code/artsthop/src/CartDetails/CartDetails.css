@@ -1,0 +1,117 @@
+.checkout__wrapper {
+  display: flex;
+  justify-content: center;
+}
+.checkout__heading {
+  margin-top: 2.5rem;
+  margin-left: 3rem;
+  color: grey;
+}
+.checkout__form {
+  /* background-color: white; */
+  border: 1px solid rgb(0, 0, 0, 0.1);
+  width: 50%;
+  padding: 1.5rem 2rem;
+  /* margin: 3rem; */
+  margin-top: 1.5rem;
+}
+.checkout__subheading {
+  font-size: 1.125rem;
+  font-style: bold;
+  color: text-primary;
+}
+.checkout__subheading:not(:first-child) {
+  padding-top: 1.25rem;
+}
+.checkout__label {
+  display: block;
+  font-size: 0.75rem;
+  font-style: bold;
+  text-transform: uppercase;
+  margin-top: 1rem;
+  width: 15rem;
+  margin-left: 0.7rem;
+  /* background-color: black; */
+}
+.checkout__input {
+  border: 1px solid text-primary;
+  padding: 0.25rem 0.5rem;
+  font-size: 0.875rem;
+}
+.checkout__select {
+  border: 1px solid text-primary;
+  padding: 0.25rem 0.5rem;
+}
+.checkout__select select > option {
+  font-size: 0.875rem;
+}
+.checkout__btn-confirm {
+  background-color: text-primary;
+  border: 1px solid text-primary;
+  padding-left: 1.25rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  color: white;
+  font-style: bold;
+  margin-top: 1.5rem;
+  display: block;
+}
+.checkout__btn-confirm:hover {
+  background-color: #3538aa;
+}
+.checkout__btn-confirm:disabled {
+  cursor: not-allowed;
+}
+.checkout__summary {
+  margin-top: 1.5rem;
+  border: 2px solid text-primary;
+  width: 20%;
+  padding: 1.5rem 2rem;
+  height: max-content;
+}
+.checkout__summary h4 {
+  font-style: bold;
+  color: text-primary;
+}
+.checkout__summary-details {
+  display: flex;
+  margin: 0.75rem;
+}
+.checkout__summary-img {
+  width: 4rem;
+  height: 4rem;
+  border: 1px solid text-primary;
+  margin-right: 0.75rem;
+  object-fit: cover;
+}
+.checkout__summary-name {
+  color: text-primary;
+}
+.checkout__summary-value {
+  margin-left: auto;
+}
+.checkout__summary-price {
+  margin-right: auto;
+  justify-content: flex-end;
+}
+.checkout__summary-price span {
+  font-style: bold;
+}
+
+.column {
+  float: left;
+  width: 50%;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.checkout-fields {
+  margin-bottom: 10rem;
+  height: 12rem;
+}

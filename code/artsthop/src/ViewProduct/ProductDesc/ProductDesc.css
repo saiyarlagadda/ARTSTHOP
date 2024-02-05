@@ -1,0 +1,17 @@
+.desc-container {
+    height: 350px;
+    overflow-wrap: break-word;
+    width: 1000px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 7%;
+    padding-bottom: 7%;
+    text-align: justify;
+    text-justify: inter-character;
+    font-weight: 500;
+}
+
+
+.desc-content {
+    padding: 5px;
+}

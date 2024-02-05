@@ -1,0 +1,36 @@
+.landing {
+    height: 112.5vh;
+    background-image: url('../assets/LandingPage/final.jpg');
+    background-repeat: no-repeat;
+}
+
+#landingpage{
+    margin-top: 8.6rem;
+}
+
+.child {
+    justify-content: center;
+    display: flex;
+    margin: auto;
+}
+
+.header-title {
+    color: whitesmoke;
+    padding-top: 8rem;
+    padding-left: 12rem;
+    /* padding-bottom: 2.5rem; */
+    font-size: 3.5rem;
+    font-weight: bold;
+}
+
+.header-subtitle {
+    color: whitesmoke;
+    padding-left: 12rem;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.hero-image {
+    width: 85rem;
+    top: 10rem;
+}

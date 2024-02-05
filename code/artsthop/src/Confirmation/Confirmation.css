@@ -1,0 +1,42 @@
+.confirmation-container {
+    margin: 8rem 0 0 5rem;
+}
+
+.orders-card {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: auto;
+    margin: auto;
+    margin-bottom: 3rem;
+    padding: 2rem;
+    /* align-items: center; */
+}
+
+.ordercard-image {
+    height: 10rem;
+    width: 15rem;
+}
+
+.ordercard-text {
+    /* margin: auto; */
+    padding: 1rem;
+    display: flex;
+    flex-direction: row;
+}
+
+.cardtext {
+    margin-left: 2rem;
+}
+
+.card-buttons {
+    margin: auto;
+    width: 35rem;
+}
+
+.cardbutton {
+    /* margin: auto; */
+    margin: 2rem 0 0 9rem;
+    width: 15rem;
+    height: 3rem;
+}

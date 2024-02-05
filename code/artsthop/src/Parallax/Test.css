@@ -1,0 +1,45 @@
+.boxes {
+    display: flex;
+    flex-direction: column;
+    margin-top: 15rem;
+    height: 60rem;
+}
+
+.box1 {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1em;
+}
+
+.box2 {
+    width: 20rem;
+    height: 20rem;
+    border-radius: 1em;
+}
+
+.magic {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+
+.box-container, .box-container-two {
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    text-align: justify;
+}
+
+.box-container-two {
+    margin-top: 20rem;
+}
+
+.textbox {
+    height: 200px;
+    width: 40rem;
+    padding-left: 15rem;
+    margin: auto;
+    text-justify: auto;
+    font-weight: bold;
+}
